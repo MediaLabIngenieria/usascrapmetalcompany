@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link type="text/css" rel="stylesheet" href="/static/styles.css">
+    <link type="text/css" rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,29 +10,36 @@
 </head>
 
 <body>
+    <img src="/logo.png" alt="" class="logo">
     <form action="/post" method="post">
-        <section id="left">
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>COPPER lb</th></tr></thead><tbody><tr><td>Brillante/Bright shiny</td><td><input name="Brillante" type="text"></td></tr><tr><td>Cobre #1 /Copper #1</td><td><input name="Cobre1" type="text"></td></tr><tr><td>Cobre #2 /Copper #2</td><td><input name="Cobre2" type="text"></td></tr><tr><td>Light copper</td><td><input name="Lightcopper" type="text"></td></tr></tbody></table></figure></code></pre>
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Cable de pelar /Insulated wire #1 88%</td><td><input name="Cabledepelar" type="text"></td></tr><tr><td>Cable #1 /Insulated wire #1</td><td><input name="Cable1" type="text"></td></tr><tr><td>Cable Romex /Romex wire</td><td><input name="CableRomex" type="text"></td></tr><tr><td>Cable CAT 5/ Insulated #2 CAT 5</td><td><input name="CableCAT5" type="text"></td></tr><tr><td>Cable #2/ Insulated #2</td><td><input name="Cable2" type="text"></td></tr><tr><td>luz de navidad /X-mas lights</td><td><input name="luzdenavidad" type="text"></td></tr></tbody></table></figure></code></pre>
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Bronce /Brass</td><td><input name="Bronce" type="text"></td></tr><tr><td>Bronce sucio /Dirty brass</td><td><input name="Broncesucio" type="text"></td></tr></tbody></table></figure></code></pre>
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Radiador de carro /Auto Radiator</td><td><input name="Radiadordecarro" type="text"></td></tr><tr><td>Radiador de AC limpio /AC RAD Clean</td><td><input name="RadiadordeAClimpio" type="text"></td></tr><tr><td>Radiador de AC sucio /AC RAD unclean</td><td><input name="RadiadordeACsucio" type="text"></td></tr></tbody></table></figure></code></pre>
+        <section id="container">
+            <section id="left">
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>COPPER lb</th></tr></thead><tbody><tr><td>Brillante/Bright shiny</td><td><input name="Brillante" type="text"></td></tr><tr><td>Cobre #1 /Copper #1</td><td><input name="Cobre1" type="text"></td></tr><tr><td>Cobre #2 /Copper #2</td><td><input name="Cobre2" type="text"></td></tr><tr><td>Light copper</td><td><input name="Lightcopper" type="text"></td></tr></tbody></table></figure></code></pre>
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Cable de pelar /Insulated wire #1 88%</td><td><input name="Cabledepelar" type="text"></td></tr><tr><td>Cable #1 /Insulated wire #1</td><td><input name="Cable1" type="text"></td></tr><tr><td>Cable Romex /Romex wire</td><td><input name="CableRomex" type="text"></td></tr><tr><td>Cable CAT 5/ Insulated #2 CAT 5</td><td><input name="CableCAT5" type="text"></td></tr><tr><td>Cable #2/ Insulated #2</td><td><input name="Cable2" type="text"></td></tr><tr><td>luz de navidad /X-mas lights</td><td><input name="luzdenavidad" type="text"></td></tr></tbody></table></figure></code></pre>
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Bronce /Brass</td><td><input name="Bronce" type="text"></td></tr><tr><td>Bronce sucio /Dirty brass</td><td><input name="Broncesucio" type="text"></td></tr></tbody></table></figure></code></pre>
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Radiador de carro /Auto Radiator</td><td><input name="Radiadordecarro" type="text"></td></tr><tr><td>Radiador de AC limpio /AC RAD Clean</td><td><input name="RadiadordeAClimpio" type="text"></td></tr><tr><td>Radiador de AC sucio /AC RAD unclean</td><td><input name="RadiadordeACsucio" type="text"></td></tr></tbody></table></figure></code></pre>
+            </section>
+
+            <section id="right">
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>ALUMINIUM lb</th></tr></thead><tbody><tr><td>Aluminum 6063</td><td><input name="Aluminum6063" type="text"></td></tr><tr><td>Dirty Aluminum 6063</td><td><input name="DirtyAluminum6063" type="text"></td></tr><tr><td>Chrome wheels</td><td><input name="Chromewheels" type="text"></td></tr><tr><td>Aluminum rims</td><td><input name="Aluminumrims" type="text"></td></tr></tbody></table></figure></code></pre>
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>MLC</td><td><input name="MLC" type="text"></td></tr><tr><td>Painted aluminum</td><td><input name="Paintedaluminum" type="text"></td></tr><tr><td>Old sheet</td><td><input name="Oldsheet" type="text"></td></tr><tr><td>Radiators</td><td><input name="Radiators" type="text"></td></tr><tr><td>Cast</td><td><input name="Cast" type="text"></td></tr><tr><td>Dirty cast</td><td><input name="Dirtycast" type="text"></td></tr><tr><td>Clean lead</td><td><input name="Cleanlead" type="text"></td></tr><tr><td>Unclean lead</td><td><input name="Uncleanlead" type="text"></td></tr></tbody></table></figure></code></pre>
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Stainless CL</td><td><input name="StainlessCL" type="text"></td></tr><tr><td>Stainless unclean</td><td><input name="Stainlessunclean" type="text"></td></tr></tbody></table></figure></code></pre>
+                <pre class="wp-block-code"
+                    style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Motores electricos / Electric motors</td><td><input name="Motoreselectricos" type="text"></td></tr><tr><td>Motores malos / Bad motors</td><td><input name="Motoresmalos" type="text"></td></tr><tr><td>Alternadores / Alternators</td><td><input name="Alternadores" type="text"></td></tr><tr><td>Motores de arranque / Starters</td><td><input name="Motoresdearranque" type="text"></td></tr><tr><td>Compresor de carro /Car Compressors</td><td><input name="Compresordecarro" type="text"></td></tr><tr><td>Compresor de aire / AC Compressors</td><td><input name="Compresordeaire" type="text"></td></tr><tr><td>Transformador / Ballast</td><td><input name="Transformador" type="text"></td></tr></tbody></table></figure></code></pre>
+            </section>
         </section>
 
-        <section id="right">
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>ALUMINIUM lb</th></tr></thead><tbody><tr><td>Aluminum 6063</td><td><input name="Aluminum6063" type="text"></td></tr><tr><td>Dirty Aluminum 6063</td><td><input name="DirtyAluminum6063" type="text"></td></tr><tr><td>Chrome wheels</td><td><input name="Chromewheels" type="text"></td></tr><tr><td>Aluminum rims</td><td><input name="Aluminumrims" type="text"></td></tr></tbody></table></figure></code></pre>
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>MLC</td><td><input name="MLC" type="text"></td></tr><tr><td>Painted aluminum</td><td><input name="Paintedaluminum" type="text"></td></tr><tr><td>Old sheet</td><td><input name="Oldsheet" type="text"></td></tr><tr><td>Radiators</td><td><input name="Radiators" type="text"></td></tr><tr><td>Cast</td><td><input name="Cast" type="text"></td></tr><tr><td>Dirty cast</td><td><input name="Dirtycast" type="text"></td></tr><tr><td>Clean lead</td><td><input name="Cleanlead" type="text"></td></tr><tr><td>Unclean lead</td><td><input name="Uncleanlead" type="text"></td></tr></tbody></table></figure></code></pre>
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Stainless CL</td><td><input name="StainlessCL" type="text"></td></tr><tr><td>Stainless unclean</td><td><input name="Stainlessunclean" type="text"></td></tr></tbody></table></figure></code></pre>
-            <pre class="wp-block-code"
-                style="padding-right: 0; padding-left: 0"><code><figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td>Motores electricos / Electric motors</td><td><input name="Motoreselectricos" type="text"></td></tr><tr><td>Motores malos / Bad motors</td><td><input name="Motoresmalos" type="text"></td></tr><tr><td>Alternadores / Alternators</td><td><input name="Alternadores" type="text"></td></tr><tr><td>Motores de arranque / Starters</td><td><input name="Motoresdearranque" type="text"></td></tr><tr><td>Compresor de carro /Car Compressors</td><td><input name="Compresordecarro" type="text"></td></tr><tr><td>Compresor de aire / AC Compressors</td><td><input name="Compresordeaire" type="text"></td></tr><tr><td>Transformador / Ballast</td><td><input name="Transformador" type="text"></td></tr></tbody></table></figure></code></pre>
+
+        <section class="button">
+            <button type="submit" id="button_conf">Enviar</button>
         </section>
-        <button type="submit">Enviar</button>
     </form>
 </body>
 

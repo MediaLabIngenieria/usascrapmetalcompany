@@ -1,6 +1,43 @@
 body {
+  display: block;
   width: 100%;
-  display: flex;
 }
-.left {
+#container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin-left: 150px;
+  font-size: 20px;
+}
+
+#left {
+  width: 50%;
+}
+
+#right {
+  width: 50%;
+}
+
+.button {
+  display: block;
+  width: 10px;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+#button_conf {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+table {
+  background-color: darkgray;
+}
+th {
+  background-color: darkgray;
+}
+tr {
+  background-color: white;
+}
+.logo {
+  margin: 10px;
 }
