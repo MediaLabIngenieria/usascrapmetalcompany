@@ -16,13 +16,19 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(express.static(dirname + "/static"));
+app.set("view engine", "ejs");
+app.set("views", dirname + "/views");
 app.use(express.static(dirname + "/public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get("/", (req, res, next) => {
-    res.sendFile(dirname + "/static/index.html");
+app.get("/", async (req, res, next) => {
+    try {
+        const data = await modelForms.findOne();
+        res.render("index", { data });
+    } catch (error) {
+        console.log(error)
+    }
 });
 app.get("/api", async (req, res, next) => {
     try {
@@ -47,7 +53,7 @@ app.post("/post", async (req, res, next) => {
             });
             await doc.save();
         }
-        console.log("se preparo, se puso linda y su amiga llamaba");
+        console.log("Se actualizo correctamente el valor");
     } catch (error) {
         console.log("fallo guardar", error);
     } finally {
