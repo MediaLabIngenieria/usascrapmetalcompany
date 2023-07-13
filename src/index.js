@@ -5,7 +5,7 @@ import { modelForms } from "./models/data.js";
 
 const uri = process.env.MONGO_URI;
 mongoose
-    .connect(uri, { dbName: "DHI" })
+    .connect(uri, { dbName: "Usascrapmetalcompany" })
     .then((db) => console.log("Se conecto a la base de datos"))
     .catch((err) => console.log(err));
 
