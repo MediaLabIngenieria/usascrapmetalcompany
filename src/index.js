@@ -57,7 +57,7 @@ app.post("/post", async (req, res, next) => {
     } catch (error) {
         console.log("fallo guardar", error);
     } finally {
-        res.redirect("/");
+        res.redirect("https://www.usascrapmetalcompany.com/prices/");
     }
 });
 

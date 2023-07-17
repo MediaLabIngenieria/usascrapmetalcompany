@@ -2,6 +2,16 @@ body {
   display: block;
   width: 100%;
 }
+.instructions {
+  text-align: center;
+  @media (min-width: 280px) {
+    font-size: 15px;
+    margin-right: 20px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 25px;
+  }
+}
 #container {
   @media (min-width: 280px) {
     display: block;
@@ -43,12 +53,12 @@ body {
 .button {
   @media (min-width: 280px) {
     font-size: 80%;
-    margin-left: 35%;
+    margin-left: 25%;
   }
-  @media (min-width: 280px) {
+  @media (min-width: 1000px) {
     display: block;
     width: 10px;
-    margin-left: 40%;
+    margin-left: 35%;
   }
 }
 #button_conf {
